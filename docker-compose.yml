@@ -73,7 +73,7 @@ services:
       - "flink-master"
 
  hue:
-    image: bde2020/hdfs-filebrowser:3.9
+    image: bde2020/hdfs-filebrowser:3.11
     hostname: hdfsfb
     container_name: hdfsfb
     domainname: hadoop
